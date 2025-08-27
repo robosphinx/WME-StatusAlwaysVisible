@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WME Status Always Visible
 // @namespace    https://greasyfork.org/en/users/1365511-robosphinx
-// @version      2025.08.27.001
+// @version      2025.08.27.002
 // @description  After loading the page, makes sure your status is set to visible.
 // @copyright    2018, Magno (https://openuserjs.org/users/Magno, https://greasyfork.org/en/users/172473-magno)
 // @license      MIT
@@ -17,7 +17,7 @@
   var CurrentVersion = GM_info.script.version;
   var VisibleVersionUpdateNotes = "WME Status Always Visible has been updated to " + CurrentVersion;
   VisibleVersionUpdateNotes += "\n\n" + "2025.08.27";
-  VisibleVersionUpdateNotes += "\n" + "Updated to use events instead of invoking button clicks";
+  VisibleVersionUpdateNotes += "\n" + "Updated to use button clicks instead of subscribing to events :/";
 
   VisibleVersionUpdateNotes += "\n" + "Will also keep you online without refresh";
   VisibleVersionUpdateNotes += "\n\n" + "2018.03.08";
